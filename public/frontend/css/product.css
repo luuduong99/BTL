@@ -1,0 +1,130 @@
+.header-top{
+    line-height: 35px;
+    background-color: #77ca64;
+    color: #fff;
+}
+.header-top a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-top span{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 12px;
+}
+.header-middle .header-search input{
+    width: 80%;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.header-middle .header-search button{
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+    color: gray;
+    background-color: white;
+    position: absolute;
+    right: 147px;
+    overflow: hidden;
+}
+.mini-card-title a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.header-bottom{
+    background-color: #464646;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    display: inline-table;
+    margin-left: -2px;
+    
+}
+.menu ul > li > a {
+    display: block;
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;  
+}
+.menu > ul > li:first-child{
+    background-color: #64beca;
+}
+.menu ul li:hover{
+    background-color: #64beca;
+}
+
+.content{
+	margin-top: 100px;
+    font-size: 16px;
+}
+.new_title{
+	 background-color: #FFCC00;
+}
+.new_title h3{
+	margin: 0 10px;
+	padding: 5px 0;
+}
+.block-content{
+	margin: 10px;
+}
+.block-content .sp_1{
+	margin: 30px 0;
+}
+.block-content .sp_1  p{
+	color: gray;
+	margin-left: 20px;
+	line-height: 5px;
+}
+.block-content .sp_1 i{
+	float: left;
+	margin-right: 8px;
+	font-size: 25px;
+}
+.panel-heading{
+	background-color: lightgray;
+}
+.panel-heading p{
+	padding: 10px;
+	margin: 0;
+}
+
+
+footer{
+    background-image: url('../images/footer.jpg');
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    z-index: -1;   
+    margin-top: 20px;
+}
+.center_footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: orangered;
+     
+}
+header .sticky{
+    opacity: 0.9; 
+    
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: azure;
+}

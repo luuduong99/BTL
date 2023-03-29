@@ -1,0 +1,132 @@
+header
+{
+    background-color: rgb(47, 255, 116);
+
+}
+
+header .img-header img
+{
+    width: 70px;
+}
+
+header .search-header input
+{
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+header .search-header button
+{
+    position: relative;
+    left: -50px;
+    background-color: white;
+    border: none;
+    color: rgb(36, 33, 33);
+    font-size: 16px;
+}
+
+header .search-header button:hover
+{
+    color: #000;
+}
+
+main
+{
+    margin-top: 20px;
+}
+
+main .menu
+{
+    background-color:  #333;
+    color: white;
+    height: 100%;
+    border-radius: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.menu-top
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu-top-img img
+{
+    width: 50px;
+    border-radius: 100vh;
+    flex-shrink: 0;
+}
+
+.menu-top-content
+{
+    flex: 1;
+    margin-left: 15px;
+}
+
+.menu h5
+{
+    background-color: #1a2226;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #4b646f;
+    padding-left: 15px;
+}
+
+.menu-bottom ul
+{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.menu-bottom ul li a
+{
+    text-decoration: none;
+    color: #b8c7ce;
+    border-left: 3px solid transparent;
+    padding: 12px 5px 12px 15px;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: rgb(36, 33, 33);
+    font-size: 16px;
+}
+
+.menu-bottom ul li i
+{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.menu-bottom ul li a:hover
+{
+    color: white;
+}
+
+.breadcrumb
+{
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border-radius: 2px;
+}
+
+table .step2 td
+{
+    vertical-align: middle;
+}

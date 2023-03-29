@@ -1,0 +1,362 @@
+.header-top{
+    line-height: 35px;
+    background-color: #77ca64;
+    color: #fff;
+}
+.header-top a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-top span{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 12px;
+}
+.header-middle .header-search input{
+    width: 80%;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.header-middle .header-search button{
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+    color: gray;
+    background-color: white;
+    position: absolute;
+    right: 147px;
+    overflow: hidden;
+}
+.mini-card-title a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+/*  */
+.item-img1{
+    float: right;
+}
+.item-img1 img{
+    height: 150px;
+    width: 200px;
+}
+.item-left{
+    align-self: center;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+/*  */
+
+
+/* Header Bottom */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    z-index: 3;
+}
+.menu {
+    background: #464646;
+}
+.menu > li:first-child{
+    background-color: #64beca;
+}
+.menu li a {
+    display: block;
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-right: 2px;
+}
+.menu li a:hover {
+    background: #64beca;
+    color: red;
+    cursor: pointer;
+    transition: all ease-in 0.6s;
+}
+.menu > li > a {
+    position: relative;
+}
+.menu > li > a::before {
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.menu > li:hover > a::before {
+    width: 100%;
+}
+.menu li:hover ul.sub_menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: all ease-in 0.3s;
+    z-index: 3;
+    display: block;
+}
+.menu li:hover ul.sub_menu li{
+    display: block;
+}
+.menu ul.sub_menu {
+    position: absolute;
+    background: #464646;
+    padding: 15px 0;
+    width: 200px;
+    top: 105%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+.menu ul.sub_menu a {
+  /* padding: 8px; */
+    border-bottom: 1px solid rgba(238, 231, 231, 0.993);
+    left: 0;
+
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul.sub_menu li:last-child a {
+    border-bottom: none;
+}
+.menu ul.sub_menu li a:hover {
+    background: #64beca;
+    color: red;
+    cursor: pointer;
+    transition: all ease-in 0.6s;
+}
+.menu ul.sub_menu ul.sub_menu {
+    left: 210px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu ul.sub_menu li:hover ul.sub_menu {
+    opacity: 1;
+    visibility: visible;
+    left: 200px;
+    transition: all ease-in 0.6s;
+    z-index: 3;
+}
+
+/* search */
+/* .smart-search
+{
+    position: absolute;
+    width: 80%;
+    background: white;
+    height: 350px;
+    overflow: scroll;
+    z-index: 1;
+    display: none;
+}
+.smart-search ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.smart-search ul li
+{
+    border-bottom: 1px solid #dddddd;
+}
+.smart-search img
+{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-right: 5px;
+}
+.smart-search ul li a
+{
+    color: black;font-size: 16px;
+    text-decoration: none;
+}
+.smart-search ul li a:hover
+{
+    color: #ff1a1a;
+} */
+/* end search */
+
+
+/* End Header Bottom */
+
+main{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/* Search Box */
+.panel-body ul li label:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+.panel-body ul li input:hover{
+    cursor: pointer;
+}
+.panel-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.panel-body ul li a:hover{
+    color: #ff0000;
+}
+/* End Search Box  */
+
+/* Card Product */
+.card{
+
+    font-size: 16px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.category .card:hover{
+    margin-top: 10px;
+}
+.card img{
+    margin-top: 10px;
+}
+.image-slide .card:hover{
+    margin-top: 10px;
+}
+.card .card-body .card-title  a{
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 14px;
+}
+.price-box img{
+    width: 20px;
+    height: 20px;
+}
+.price-box a{
+    text-decoration: none;
+}
+.sale-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sale-img img{
+    width: 400px;
+    height: 100px;
+}
+.remain-product{
+    margin-bottom: 15px;
+}
+.discount{
+    position: absolute;
+    line-height: 50px;
+    width: 50px;
+    background-color: black;
+    text-align: center;color: white;
+    border-radius: 50px;
+    background: red;
+}
+
+.slick-initialized .slick-slide {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    line-height: 1;
+    z-index: 5;
+    cursor: pointer;
+    background: none;
+    color: rgba(240, 248, 255, 0.808);
+}
+
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
+/* End Card Product */
+
+.carousel-item a{
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+.carousel-item span{
+    color: red;
+
+}
+footer{
+    background-image: url('../images/footer.jpg');
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    z-index: -1;
+    margin-top: 20px;
+}
+.center_footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: orangered;
+
+}
+header .sticky{
+    opacity: 0.9;
+
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: azure;
+}
+
